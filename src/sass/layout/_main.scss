@@ -1,0 +1,87 @@
+body {
+  font-family: $base-font-family;
+  font-size: 16px;
+  line-height: 1.75;
+  min-width: 320px;
+  color: $base-txt-color;
+}
+
+#wrapper { 
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1090px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+ 
+ a.ref-button {
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+ } 
+
+.block-flex1 {
+  margin: 50px;
+ background-color: rgb(246,242,242);
+ min-height:  500px;
+  display: flex;
+  flex-direction: column;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+}
+
+ .flex-child1 {
+  width: 500px;
+ }
+
+ .flex-media {
+ height:  350px;
+ width: 450px;
+ background: rgb(196,192,177);
+}    
+
+.secondary-header {
+	text-transform: uppercase;
+}
+
+.block-flex2 {
+  margin: 50px;
+ background-color: rgb(246,242,242);
+ min-height:  500px;
+  display: flex;
+  flex-direction: column;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+}
+
+ .flex-child2 {
+  width: 50%;
+  margin: 15px;
+  padding: 30px;
+ }
+  
+  
+  .flex-row1 {
+      display: flex;
+      flex-direction: column;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+      .block-flex-inner {
+        margin: 10px;
+        padding: 15px;
+      }
+   }
+        
