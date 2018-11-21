@@ -1,18 +1,19 @@
-$base-font-family: Georgia;
-$secondary-font-family: Arial;
+$base-font-family: 'Open Sans', sans-serife;
+$secondary-font-family: 'Releway', sans-serife;
 $headings-font-family: "Times New Roman", monospace;
 
 $gray: #626262;
 $grey-light: #b4ad9e;      
 $grey-lighter: #f0f0f0;
-
+$dark-grey: #e5e5e5;
 $red:  #ea1313;
 $black: #000;
+$pink-gray: #f6f2f2;    
 $white: #fff;
 
 $base-txt-color: $gray;
 $link-color: $gray;
-
+ 
 $link-hover-color: $red;
 
 
@@ -24,3 +25,8 @@ $breakpoints: (
 	md: 1024px,
 	lg: 1200px
 );
+
+$bold: 900;
+$base-text-color: $black;
+$base-active-color: $red;
+$contact-form-input-bg: $dark-grey;  
