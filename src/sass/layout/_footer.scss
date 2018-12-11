@@ -1,47 +1,45 @@
-.footer {
-	margin-top: 95px;
-	background-color: $black;  
-    color: $white;
+  .footer {
+	
+	background-color:  $custom-black;
+	text-align: center;
 	padding: 30px 0 50px 0;
-    position: relative;
-   text-align: left center; 
-}
-  
+
+	   color: $custom-white;
+} 
+
 .socials {
 
-	  text-align: left right; 
+	  text-align: center; 
 	display: inline-block;
 	vertical-align: top;
 	margin-right: -8px;
-	margin-left: 250px;
-    color: $white;
+	
+    color: $custom-light-yellow;
       
 	li {
-		text-align: right;
+		text-align: center;
 		display: inline-block;
 		vertical-align: top;
 		padding: 0 8px;
 	}
 
-	a {     
+	a {        
 	   padding: 3px 3px 3px 3px;  
 		text-decoration: none;
-		color: $black;
-	    background-color: white;  
-         border-radius: 9px;
+		color: $custom-black;
+	    background-color: $custom-light-yellow;  
+         border-radius: 2px;
 		    &:hover {
-                color: $red;  
+                color: red;  
             } 
 	}
+}      
+
+.block-inverse {
+  background: $custom-black;;
+  color: $custom-white;;
 }
 
-   
-.socials-title {
- padding-right: 150px;  
-text-align: left;
-	  /*    position :absolute;
-      left: 30px; 
-    top: 0;
-    bottom: 0;    */
+.text-alig-left {
+	  text-align: left;
 }
-

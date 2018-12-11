@@ -1,0 +1,53 @@
+$gray-base: $custom-black;
+$gray-darker: $custom-black; // #222
+$gray-dark: $custom-gray;   // #333
+// $gray: lighten($gray-base, 33.5%); // #555
+$gray-light: $custom-gray-light; // #ro
+$gray-lighter: $custom-gray-lighter; // #eee
+
+$brand-primary: $custom-light-yellow;
+$body-bg: $custom-white;
+$text-color: $gray-dark;
+
+$font-family-sans-serif: $base-font;
+
+$link-color: $text-color;
+//** Link hover color set via `darken()` function.
+$link-hover-color: $brand-primary;
+//** Link hover decoration.
+$link-hover-decoration: none;
+
+$font-size-base:          16px;
+$line-height-base:        1.25;
+
+$font-size-h1:  30px;   
+$font-size-h2:  26px;
+$font-size-h3:  22px;
+
+$headings-color:  $custom-black;   
+
+$padding-base-vertical:     12px ;
+   //////////////////////////////////////
+
+$btn-default-color:  $brand-primary;
+$btn-default-bg: transparent;
+$btn-default-border: $brand-primary;
+
+
+$btn-primary-color: $custom-white;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: darken($btn-primary-bg, 5%);
+
+///////////////////////////////////////////////////////  
+
+///////////////////////////////////////////////////////
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+// $navbar-inverse-color:                      lighten($gray-light, 15%) !default;
+$navbar-inverse-bg: $brand-primary;
+$navbar-inverse-border: $brand-primary;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                $gray-darker;  
+$navbar-inverse-link-hover-color:           $gray-darker;

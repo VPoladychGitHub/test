@@ -1,10 +1,11 @@
-@import "common/fonts";
 @import "common/variables";
+@import "assets/stylesheets/bootstrap-custom";  
+
+@import "assets/stylesheets/bootstrap";  
+
+@import "common/fonts";
 @import "common/reset";
 
 @import "layout/header";
 @import "layout/footer";
 @import "layout/main";
-
-@import "layout/team";  
-@import "layout/forms"; 
