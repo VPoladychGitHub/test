@@ -1,0 +1,33 @@
+.alt-contact-form {
+	[type='text'],
+    [type='email'],
+    textarea {
+	background: $contact-form-input-bg;
+	border: none;
+	outline: none;
+	padding: 10px 15px;
+	border-radius: 3px;
+	display: block;  
+    margin-right: 0;
+    width: 100%;  
+   }
+
+
+	textarea {
+	resize: none;
+	height: 200px;
+	}
+
+	.input-holder {
+		margin-bottom: 20px;
+
+	}
+}
+  
+.btn-holder {
+
+	.btn {
+		display: block;
+		width: 100%;  
+	}
+}

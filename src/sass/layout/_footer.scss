@@ -1,0 +1,47 @@
+.footer {
+	margin-top: 95px;
+	background-color: $black;  
+    color: $white;
+	padding: 30px 0 50px 0;
+    position: relative;
+   text-align: left center; 
+}
+  
+.socials {
+
+	  text-align: left right; 
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -8px;
+	margin-left: 250px;
+    color: $white;
+      
+	li {
+		text-align: right;
+		display: inline-block;
+		vertical-align: top;
+		padding: 0 8px;
+	}
+
+	a {     
+	   padding: 3px 3px 3px 3px;  
+		text-decoration: none;
+		color: $black;
+	    background-color: white;  
+         border-radius: 9px;
+		    &:hover {
+                color: $red;  
+            } 
+	}
+}
+
+   
+.socials-title {
+ padding-right: 150px;  
+text-align: left;
+	  /*    position :absolute;
+      left: 30px; 
+    top: 0;
+    bottom: 0;    */
+}
+
